@@ -7,8 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     inputValue = document.querySelector("#create-task-form  #new-task-description");
   li.innerText = inputValue.value;
   btn.innerHTML ="x";
-  btn.onClick= function() {
-
+  btn.onclick=function() {
     this.parentNode.remove();
   };
   li.appendChild(btn);
