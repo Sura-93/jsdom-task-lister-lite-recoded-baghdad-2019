@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   ul.appendChild(li);
   inputValue.value ="";
   }
-  
+
 let form = document.querySelector("form");
 let ul = document.getElementById("tasks");
 form.onsubmit = addTodo;
